@@ -1,0 +1,33 @@
+.gradient-text-portfolio {
+    font-size: 6em;
+    background: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    background-size: 200% auto;
+    color: #f5ce62;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: GradientAnimation 3s ease-in-out infinite;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.gradient-text-portfolioText {
+    font-size: 40px;
+    background: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    background-size: 200% auto;
+    color: #f5ce62;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: GradientAnimation 3s ease-in-out infinite;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.cardStylePortfolio {
+    background-color: #111111 !important;
+    border-color: #212425 !important;
+    border-style: solid;
+    border-width: 3px !important;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 2rem !important;
+    border-bottom-left-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+}

@@ -1,0 +1,38 @@
+.gradient-text-profiloText {
+    font-size: 2em;
+    background: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+    background-size: 200% auto;
+    color: #f5ce62;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: GradientAnimation 3s ease-in-out infinite;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.gradient-text-profilo {
+    font-size: 6em;
+    background: linear-gradient(to right, #009245, #FCEE21, #00A8C5, #D9E021);
+    background-size: 200% auto;
+    color: #f5ce62;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: GradientAnimation 3s ease-in-out infinite;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+
+.btn-hover.color-9 {
+    background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+    box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+.btn-hover.color-8 {
+    background-image: linear-gradient(to right, #29323c, #485563, #2b5876, #4e4376);
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+}
+
+.btn-hover.color-11 {
+    background-image: linear-gradient(to right, #eb3941, #f15e64, #e14e53, #e2373f);  box-shadow: 0 5px 15px rgba(242, 97, 103, .4);
+}

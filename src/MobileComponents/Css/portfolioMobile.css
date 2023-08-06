@@ -1,0 +1,22 @@
+.gradient-text-portfolioMobile {
+    font-size: 3em;
+    background: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    background-size: 200% auto;
+    color: #f5ce62;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: GradientAnimation 3s ease-in-out infinite;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.gradient-text-portfolioTextMobile {
+    font-size: 40px;
+    background: linear-gradient(to right, #667eea, #764ba2, #6B8DD6, #8E37D7);
+    background-size: 200% auto;
+    color: #f5ce62;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: GradientAnimation 3s ease-in-out infinite;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}

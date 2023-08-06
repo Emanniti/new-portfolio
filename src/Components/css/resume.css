@@ -1,0 +1,79 @@
+.cardStyle {
+    background-color: #111111 !important;
+    border-color: #212425 !important;
+    border-style: solid;
+    border-width: 3px !important;
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 2rem !important;
+    border-bottom-left-radius: 2rem !important;
+    border-bottom-right-radius: 2rem !important;
+}
+
+
+.gradient-text-resume {
+    font-size: 6em;
+    background: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    background-size: 200% auto;
+    color: #f5ce62;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: GradientAnimation 3s ease-in-out infinite;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.gradient-text-resumeText {
+    font-size: 4em;
+    background: linear-gradient(to right, #25aae1, #40e495, #30dd8a, #2bb673);
+    background-size: 200% auto;
+    color: #f5ce62;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: GradientAnimation 3s ease-in-out infinite;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+@keyframes GradientAnimation {
+    0% {
+        background-position: 100% 0%
+    }
+
+    50% {
+        background-position: 0% 100%
+    }
+
+    100% {
+        background-position: 100% 0%
+    }
+}
+
+.fontStyle {
+    font-size: 20px;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+}
+
+
+animated-progress {
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    margin: 20px 10px;
+    border: 1px solid rgb(189, 113, 113);
+    overflow: hidden;
+    position: relative;
+}
+
+.animated-progress span {
+    height: 100%;
+    display: block;
+    width: 0;
+    color: rgb(255, 251, 251);
+    line-height: 30px;
+    position: absolute;
+    text-align: end;
+    padding-right: 5px;
+}
+
+.progress-blue span {
+    background-color: blue;
+}

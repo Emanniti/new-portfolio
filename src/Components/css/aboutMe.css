@@ -1,0 +1,36 @@
+.gradient-text-aboutMe {
+    font-size: 6em;
+    background: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    background-size: 200% auto;
+    color: #f5ce62;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: GradientAnimation 3s ease-in-out infinite;
+    text-align: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+.gradient-text-aboutSection {
+    font-size: 3em;
+    background: linear-gradient(to right, #f5ce62, #e43603, #fa7199, #e85a19);
+    background-size: 200% auto;
+    color: #f5ce62;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: GradientAnimation 3s ease-in-out infinite;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+
+@keyframes GradientAnimation {
+    0% {
+        background-position: 100% 0%
+    }
+
+    50% {
+        background-position: 0% 100%
+    }
+
+    100% {
+        background-position: 100% 0%
+    }
+}

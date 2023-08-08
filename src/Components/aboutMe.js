@@ -88,7 +88,7 @@ function AboutMe() {
                         </Grid>
                         <Grid item xs={6} textAlign='center'>
                             <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ ease: "easeIn", duration: 1, delay: 1 }} viewport={{ once: true }}>
-                                <a href="https://www.accenture.com" rel="noreferrer" target="_blank">
+                                <a href="https://matrixconsulting.it/" rel="noreferrer" target="_blank">
                                     <Box
                                         component="img"
                                         style={{ marginTop: -120 }}
